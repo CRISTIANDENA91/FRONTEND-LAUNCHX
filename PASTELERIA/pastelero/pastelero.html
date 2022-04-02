@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pastelero</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>INVENTARIO PASTELERIA</h1>
+    </div>
+    <div class="main-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sabores</th><th>Cantidad</th><th>Adornos</th><th>Cantidad</th>
+                </tr>
+            </thead> 
+            <tr>
+                <td>3 leces con fresas</td><td>14</td><td>Cortina dorada</td><td>17</td>
+            </tr>
+            <tr>
+                <td>Bombón</td><td>20</td><td>V azul</td><td>300</td> 
+            </tr>
+            <tr>
+                <td>Café</td><td>4</td><td>V roja</td><td>240</td> 
+            </tr>
+            <tr>
+                <td>Zanahoria</td><td>9</td><td>Vela chispass negra</td><td>19</td> 
+            </tr>
+            <tr>
+                <td>Chocolate c/ Galletas</td><td>3</td><td>vela chispas blanca</td><td>17</td> 
+            </tr>
+            <tr>
+                <td>3 leches c/ mango</td><td>13</td><td>Globo cerveza</td><td>22</td> 
+            </tr>
+            <tr>
+                <td>Selva Negra</td><td>22</td><td>desechables rosas</td><td>45</td> 
+            </tr>
+            <tr>
+                <td>3 leches c/almendras</td><td>16</td><td>paquete fiestas</td><td>140</td> 
+            </tr>
+        </table>
+    </div>
+    <section class="contenedor" id="pedido">
+        <div>
+            <h1>PEDIDO RECIBIDO</h1>
+        </div>
+        <div class="pedido">
+            <h2 class="titulo">Pedido</h2>
+            <form action="" class="formulario">
+                <input type="text" placeholder="Nombre" name="nombre">
+                <input type="text" placeholder="Correo" name="correo">
+                <input type="tel" placeholder="Telefono" name="telefono"><br>
+            </form>    
+                <h2 class="pedido">Pasteles</h2>
+                <label for="pasteles">Seleccione para ordenar</label>
+                <select  name="Pasteles">
+                    <option value="3 leches con fresas">3 leches c/fresas</option>
+                    <option value="bombon">Bombón</option>
+                    <option value="cafe">Café</option>
+                    <option value="zanahoria">Zanahoria</option>
+                    <option value="3 leches con mango">3 leches c/mango</option>
+                    <option value="chocolate y galletas">chocolate c/ galleta</option>
+                    <option value="selvanegra">Selva negra</option>
+                    <option value="3 leches con almendras">3 leches c/almendras</option>
+                </select>
+                <h2 class="pedido">Ingredientes extras</h2>
+                <input type="checkbox" value="chocolate"> Chocolate<br>
+                <input type="checkbox" value="platano"> Platano<br>
+                <input type="checkbox" value="Canela"> Canela<br>
+                <input type="checkbox" value="cafe"> Café<br>
+                <input type="checkbox" value="Frutos rojos"> Frutos rojos<br>  
+                <h2 class="pedido">Seleccione un adorno</h2>
+                <input type="checkbox" value="vAzul">Vela feliz cumpleaños azul (cake time)<br>
+                <input type="checkbox" value="vRoja">Vela feliz cumpleaños roja (cake time)<br>
+                <input type="checkbox" value="vchispas1">Vela chispas negra  lety<br>
+                <input type="checkbox" value="vchispas2">Vela chispas blanca  lety<br>
+                <input type="checkbox" value="">Globo en forma de cerveza<br>
+                <input type="checkbox" value="">Cortina dorada<br>
+                <input type="checkbox" value="">Desechables rosa palo<br>
+                <input type="checkbox" value="">Paquete fiestas<br>
+            </div>
+        </section>
+</body>
+</html>

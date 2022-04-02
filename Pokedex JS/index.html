@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <title>Pokedex LaunchX</title>
+</head>
+<body>
+    <header class="titulo">
+        <img src="./IMG/titulo.png" class="tituloImg">
+    </header>
+    <section class="contenedor_pokedex">
+        <div class="pokedexBox"></div>
+        <img src="./IMG/pokedex.gif" alt="">
+        <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName"><br>
+        <img src="./IMG/pokeball.png" alt="Pokemon" id="pokeImg" width="150px"><br>
+        <button class="change_boton" onclick="fetchPokemon()">B</button>
+        </div>
+    </section>
+    <section class="infoPokemon">
+        <div>
+            <p id="pokeNombre"></p>
+            <p id="pokeId"></p>
+            <p id="pokeHeight"></p>
+            <p id="pokeWeight"></p>
+        </div>
+    </section>
+    <section class="contenedor_stats">
+        <div>
+        <h3>Estadisticas</h3>
+        <p id="hp">HP:</p>
+        <p id="atk">ATK:</p>
+        <p id="def">DEF:</p>
+        <p id="satk">SATK:</p>
+        <p id="sdef">SDEF:</p>
+        <p id="spd">SPD:</p>
+        </div>
+        <div>
+        <h3>Tipo:</h3>    
+        <p id="tipo"></p>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./JS/pokedexLaunchX.js"></script>
+</footer>
+</html>
